@@ -15,12 +15,20 @@
   gap: 70px;
 }
 
-.list{
+/* .list{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 20px;
+} */
+
+.dropdown{
+  border: 2px blue solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 30px;
 }
 
 .ar {
@@ -29,10 +37,85 @@
 }
 
 .item{
-  /* position: absolute; */
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 5px;
+}
+
+#loans{
+  display: none;
+  position: absolute;
+  margin-left: 570px;
+  border: 2px black solid;
+  width: 120px;
+}
+
+#insurance {
+  display: none;
+  position: absolute;
+  margin-left: 720px;
+  border: 2px black solid;
+  width: 120px;
+}
+
+#credit-cards{
+  display: none;
+  position: absolute;
+  margin-left: 860px;
+  border: 2px black solid;
+  width: 170px;
+}
+
+#resources {
+  display: none;
+  position: absolute;
+  margin-left: 1060px;
+  border: 2px black solid;
+  width: 120px;
+}
+
+#personalLoan{ 
+  display: none;
+  width: 130px;
+  border: 2px solid black;
+  margin-left: 693px;
+  position: absolute;
+}
+
+#businessLoan{
+  display: none;
+  width: 140px;
+  border: 2px solid black;
+  margin-left: 693px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+#instantLoan{
+  margin-top: 35px;
+  display: none;
+  width: 150px;
+  border: 2px solid black;
+  margin-left: 693px;
+  position: absolute;
+}
+
+#professionalLoan{
+  margin-top: 10px;
+  display: none;
+  width: 130px;
+  border: 2px solid black;
+  margin-left: 693px;
+  position: absolute;
+}
+
+#secureLoan{
+  margin-top: 10px;
+  display: none;
+  width: 130px;
+  border: 2px solid black;
+  margin-left: 693px;
+  position: absolute;
 }
