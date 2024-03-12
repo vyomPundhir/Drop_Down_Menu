@@ -24,21 +24,25 @@ const secureLoan = document.getElementById('secureLoan')
 drop1.addEventListener('click', function(e){
   e.preventDefault()
   Dropdown1(loans)
+  hideAllSubDropdowns()
 })
 
 drop2.addEventListener('click', function(e){
   e.preventDefault()
   Dropdown1(insurance)
+  hideAllSubDropdowns()
 })
 
 drop3.addEventListener('click', function(e){
   e.preventDefault()
   Dropdown1(creditCards)
+  hideAllSubDropdowns()
 })
 
 drop4.addEventListener('click', function(e){
   e.preventDefault()
   Dropdown1(resources)
+  hideAllSubDropdowns()
 })
 
 personal.addEventListener('click', function(e){
@@ -67,7 +71,7 @@ secure.addEventListener('click', function(e){
 })
 
 function Dropdown1(dropdown) {
-  if (dropdown.style.display === 'none'){
+  if (dropdown.style.display === 'none' || dropdown.style.display === ''){
     hideAllDropdowns1();
     dropdown.style.display='block';
   }
@@ -84,7 +88,7 @@ function hideAllDropdowns1 (){
 }
 
 function Dropdown2(dropdown) {
-  if (dropdown.style.display === 'none'){
+  if (dropdown.style.display === 'none' || dropdown.style.display === ''){
     hideAllDropdowns2();
     dropdown.style.display='block';
   }
@@ -98,4 +102,11 @@ function hideAllDropdowns2 (){
   allDropdowns.forEach(function (dropdown){
     dropdown.style.display = 'none';
   })
+}
+
+function hideAllSubDropdowns() {
+  const allSubDropdowns = [personalLoan, businessLoan, instantLoan, professionalLoan, secureLoan];
+  allSubDropdowns.forEach(function (dropdown) {
+    dropdown.style.display = 'none';
+  });
 }
