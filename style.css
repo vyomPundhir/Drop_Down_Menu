@@ -53,8 +53,6 @@
   padding-left: 4px;
   padding-top: 5px;
   padding-bottom: 5px;
-  
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -116,61 +114,189 @@
 }
 
 #credit-cards{
+  border: 2px rgb(181, 181, 181) solid;
   display: none;
+  border-radius: 5%;
   position: absolute;
-  margin-left: 860px;
-  border: 2px black solid;
-  width: 170px;
+  margin-left: 850px;
+  width: 190px;
+  padding-bottom: 7px;
+}
+
+.credit:hover{
+  background: #eeebeb;
+  cursor: pointer;
+}
+
+.credit{
+  width: 165px;
+  border-radius: 5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 7px;
+  padding-left: 7px;
+  margin-left: 8px;
 }
 
 #resources {
+  border: 2px rgb(181, 181, 181) solid;
+  border-radius: 8%;
   display: none;
   position: absolute;
-  margin-left: 1060px;
-  border: 2px black solid;
-  width: 120px;
+  margin-left: 1040px;
+  width: 140px;
+  padding-bottom: 7px;
+}
+
+.res:hover{
+  background: #eeebeb;
+  cursor: pointer;
+}
+
+.res{
+  width: 110px;
+  border-radius: 5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 7px;
+  padding-left: 7px;
+  margin-left: 8px;
 }
 
 #personalLoan{ 
+  background: #ffffff;
   display: none;
-  width: 130px;
-  border: 2px solid black;
-  margin-left: 693px;
   position: absolute;
+  margin-left: 690px;
+  border-radius: 8%;
+  border: 2px rgb(181, 181, 181) solid;
+  width: 150px;
+  /* height: 200px; */
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.per{
+  border-radius: 5%;
+  width: 130px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+.per:hover{
+  background: #eeebeb;
+  cursor: pointer;
 }
 
 #businessLoan{
   display: none;
-  width: 140px;
-  border: 2px solid black;
-  margin-left: 693px;
-  margin-top: 20px;
+  width: 150px;
+  border: 2px rgb(181, 181, 181) solid;
+  margin-top: 41px;
   position: absolute;
+  background: #ffffff;
+  position: absolute;
+  margin-left: 690px;
+  border-radius: 8%;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.bus{
+  border-radius: 5%;
+  width: 135px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+.bus:hover{
+  background: #eeebeb;
+  cursor: pointer;
 }
 
 #instantLoan{
-  margin-top: 35px;
   display: none;
-  width: 150px;
-  border: 2px solid black;
-  margin-left: 693px;
+  width: 160px;
+  border: 2px rgb(181, 181, 181) solid;
+  margin-top: 83px;
   position: absolute;
+  background: #ffffff;
+  position: absolute;
+  margin-left: 690px;
+  border-radius: 6%;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.instant{
+  border-radius: 5%;
+  width: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+.instant:hover{
+  background: #eeebeb;
+  cursor: pointer;
 }
 
 #professionalLoan{
-  margin-top: 10px;
   display: none;
-  width: 130px;
-  border: 2px solid black;
-  margin-left: 693px;
+  width: 160px;
+  border: 2px rgb(181, 181, 181) solid;
+  margin-top: 83px;
   position: absolute;
+  background: #ffffff;
+  position: absolute;
+  margin-left: 690px;
+  border-radius: 8%;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.prof{
+  border-radius: 5%;
+  width: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+.prof:hover{
+  background: #eeebeb;
+  cursor: pointer;
 }
 
 #secureLoan{
-  margin-top: 10px;
   display: none;
-  width: 130px;
-  border: 2px solid black;
-  margin-left: 693px;
+  width: 190px;
+  border: 2px rgb(181, 181, 181) solid;
+  margin-top: 83px;
   position: absolute;
+  background: #ffffff;
+  position: absolute;
+  margin-left: 690px;
+  border-radius: 8%;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.secure{
+  border-radius: 5%;
+  width: 180px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+.secure:hover{
+  background: #eeebeb;
+  cursor: pointer;
 }
